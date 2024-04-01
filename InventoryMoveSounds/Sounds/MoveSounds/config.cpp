@@ -3726,8 +3726,8 @@ class CfgVehicles
 	class Grenade_Base: Inventory_Base
 	{
 		ItemMoveSounds[] = 
-		{
-			"MagRifle_empty_in_SoundSet"
+		{	// Replacing sound due to 1.24 update from MagRifle_empty_in_SoundSet to PSO11Optic_pickup_SoundSet
+			"PSO11Optic_pickup_SoundSet"
 		};	
 	};
 // Blade 
@@ -3895,8 +3895,8 @@ class CfgMagazines
 	class Magazine_Base: DefaultMagazine
 	{
 		ItemMoveSounds[] = 
-		{
-			"MagRifle_empty_in_SoundSet"
+		{	// Replacing sound due to 1.24 update from MagRifle_empty_in_SoundSet to PSO11Optic_pickup_SoundSet
+			"PSO11Optic_pickup_SoundSet"
 		};	
 	};
 	class Ammunition_Base: Magazine_Base
